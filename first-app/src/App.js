@@ -1,6 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import Header from "./component/Header.js";
+import Footer from "./component/Footer.js";
+import Body from "./component/Body.js";
+import LeftSide from "./component/LeftSide.js";
+import RightSide from "./component/RightSide.js";
 const name = "Legendary Andy";
 
 let customStyle = {
@@ -9,9 +13,11 @@ let customStyle = {
 };
 function App() {
   return (
-    <div className="App">
-      <h1 style={customStyle}>Hello {name}</h1>
-    </div>
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
   );
 }
 
