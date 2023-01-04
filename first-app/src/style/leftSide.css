@@ -1,3 +1,7 @@
 div ul {
   list-style: none;
 }
+.leftside {
+  width: 400px;
+  border-right: 1px solid black;
+}

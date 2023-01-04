@@ -1,7 +1,9 @@
-export default function Title() {
+export default function Title(props) {
   return (
-    <di>
-      <h1>Title</h1>
-    </di>
+    <div className="title">
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
+      <p>Votes: {props.votes}</p>
+    </div>
   );
 }
