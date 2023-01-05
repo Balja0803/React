@@ -1,0 +1,11 @@
+.blog {
+  display: flex;
+  align-items: center;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+}
+.blog-box {
+  border: 1px solid black;
+}
