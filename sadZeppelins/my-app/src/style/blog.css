@@ -4,8 +4,27 @@
 }
 .logos {
   display: flex;
-  gap: 20px;
 }
 .blog-box {
-  border: 1px solid black;
+  display: flex;
+}
+svg {
+  margin: 10px;
+}
+.blog-h1 {
+  font-weight: 700;
+  font-size: 52px;
+  color: #d05270;
+  margin: 0;
+}
+.blog-h2 {
+  font-weight: 500;
+  font-size: 52px;
+  margin-top: 12px;
+}
+.blog-p {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }

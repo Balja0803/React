@@ -8,6 +8,16 @@ header ul {
   gap: 20px;
 }
 .logo {
-  font-size: 32px;
+  display: flex;
+  gap: 10px;
+}
+header ul li {
   font-weight: 600;
+  font-size: 14px;
+  list-style: none;
+  color: #424242;
+}
+header ul li:hover {
+  color: #5a47ab;
+  cursor: pointer;
 }

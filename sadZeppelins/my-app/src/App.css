@@ -1,6 +1,10 @@
-.App {
-  max-width: 1000px;
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  max-width: 1200px;
   margin: 0 auto;
+}
+.App {
 }
 
 .App-logo {
@@ -13,7 +17,25 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.blog-box {
+  width: 201px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter-box {
+  background-color: #47acdf;
+  color: #fff;
+}
+.linkedin-box {
+  background-color: #1275b1;
+  color: #fff;
+}
+.medium-box {
+  background-color: #000000;
+  color: #fff;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
