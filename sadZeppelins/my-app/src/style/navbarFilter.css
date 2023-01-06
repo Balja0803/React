@@ -1,4 +1,14 @@
 nav ul {
   display: flex;
   gap: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #424242;
+}
+nav ul li {
+  cursor: pointer;
+  list-style: none;
+}
+nav ul li:hover {
+  color: #d05270;
 }

@@ -1,15 +1,19 @@
-export default function SubArticles() {
+import "../style/subArticle.css";
+import ShowDate from "./Date";
+
+export default function SubArticles(props) {
+  const { products } = props;
   return (
-    <div>
-      <img></img>
-      <p>date</p>
-      <h2>title</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-        ducimus dolore at, reiciendis ab dignissimos quia! Necessitatibus ex
-        dolor eveniet?
-      </p>
-      <a href="#">READ MORE</a>
+    <div className="cards">
+      <div className="card">
+        <img src={products.image} height="415px" width="590px"></img>
+
+        <ShowDate />
+
+        <h2>{products.title}</h2>
+        <p>{products.description}</p>
+        <a href="#">READ MORE</a>
+      </div>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import { data } from "./util/data.js";
+
 function App() {
   return (
     <div className="App">
