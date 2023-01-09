@@ -1,23 +1,44 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./component/Header.js";
-import Footer from "./component/Footer.js";
-import Body from "./component/Body.js";
-import LeftSide from "./component/LeftSide.js";
-import RightSide from "./component/RightSide.js";
-const name = "Legendary Andy";
-
-let customStyle = {
-  color: name.split(" ")[0] == "Legendary" ? "#2ecc71" : "black",
-  fontSize: name.split(" ")[0] == "Legendary" ? "56px" : "30px",
-};
+import { useState } from "react";
 function App() {
+  const [count, setCount] = useState("");
+  const changeToOne = () => {
+    setCount("1");
+  };
+  const getValue = () => {};
   return (
-    <>
-      <Header />
-      <Body />
-      <Footer />
-    </>
+    <div>
+      <input value={count} />
+
+      <button onClick={getValue} value="1">
+        1
+      </button>
+      <button onClick={getValue} value="2">
+        2
+      </button>
+
+      <button onClick={getValue} value="3">
+        3
+      </button>
+      <button onClick={getValue} value="4">
+        4
+      </button>
+      <button onClick={getValue} value="5">
+        5
+      </button>
+      <button onClick={getValue} value="6">
+        6
+      </button>
+      <button onClick={getValue} value="7">
+        7
+      </button>
+      <button onClick={getValue} value="8">
+        8
+      </button>
+      <button onClick={getValue} value="9">
+        9
+      </button>
+    </div>
   );
 }
 
