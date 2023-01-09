@@ -18,7 +18,11 @@ function App() {
       <button onClick={getInput}>add</button>
       <ul>
         {todos.map((todo, index) => (
-          <li key={index}>{todo}</li>
+          <li key={index}>
+            {todo}
+            <button onClick={editVal}>edit</button>
+            <button onClick={deleteVal}>delete</button>
+          </li>
         ))}
       </ul>
     </div>
