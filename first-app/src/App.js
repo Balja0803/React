@@ -2,7 +2,6 @@ import "./App.css";
 import { useState } from "react";
 function App() {
   const [count, setCount] = useState("");
-
   const getValue = (e) => {
     setCount(count + e.target.value);
   };
