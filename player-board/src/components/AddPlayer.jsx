@@ -47,9 +47,9 @@ export default function AddPlayer(props) {
             </div>
             <div class="modal-body">
               <label>Player Name: </label>
-              <input></input>
+              <input type="text"></input>
               <label>Player Score: </label>
-              <input></input>
+              <input type="number"></input>
             </div>
             <div class="modal-footer">
               <button

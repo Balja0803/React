@@ -1,0 +1,11 @@
+footer ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  background: aqua;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}

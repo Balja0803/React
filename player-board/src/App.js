@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import "./App.css";
 import AddPlayer from "./components/AddPlayer";
 import { useState } from "react";
+import Players from "./components/Players";
 
 function App() {
   const [users, setUsers] = useState();
@@ -19,6 +20,7 @@ function App() {
             <th className="btn btn-warning">by Name</th>
             <th className="btn btn-danger">by Score</th>
           </tr>
+          <Players props={props} />
         </thead>
       </table>
     </div>
