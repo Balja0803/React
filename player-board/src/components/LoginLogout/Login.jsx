@@ -1,11 +1,8 @@
-import "./App.css";
-
 import { useState } from "react";
+import Profile from "./Profile";
+import WelcomePage from "./WelcomePage";
 
-import Profile from "./components/LoginLogout/Profile";
-import WelcomePage from "./components/LoginLogout/WelcomePage";
-
-function App() {
+export default function Login() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   function loginHandler(userName, password) {
@@ -27,4 +24,3 @@ function App() {
     </div>
   );
 }
-export default App;
